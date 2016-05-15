@@ -1,3 +1,3 @@
 # Ashpalt-Gameprofiles-Editor
-Editor of gameprofiles.txt file for Asphalt 8
+Editor of gameprofiles.txt file for Asphalt 8\n
 Редактор конфигов для игры Asphalt 8
