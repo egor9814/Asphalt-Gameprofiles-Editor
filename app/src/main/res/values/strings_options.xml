@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="gpu_options">
+		<item>Renderers</item>
+		<item>Use paraboloid reflection</item>
+		<item>Use static paraboloid reflection</item>
+		<item>Use high quality cars</item>
+		<item>Use car quality lighting</item>
+		<item>Use road specular</item>
+		<item>Use car specular</item>
+		<item>Road texture anisotropy</item>
+		<item>Use car particles</item>
+		<item>Use perfect boost</item>
+		<item>GFX option</item>
+		<item>Use Dof</item>
+		<item>Default texture filtering</item>
+		<item>Optimize car LODs</item>
+		<item>Start texture LOD</item>
+		<item>Use skid marks</item>
+		<item>Sort solids front to back</item>
+		<item>Fullscreen blur quality</item>
+		<item>Car texture anisotropy</item>
+	</string-array>
+
+	<string-array name="cpu_options">
+		<item>Processors</item>
+		<item>Use traffic cars</item>
+		<item>Use breakables</item>
+		<item>Use simplified car collisions</item>
+		<item>Use AI car sounds</item>
+		<item>Use AI car particles</item>
+		<item>Use quality physics</item>
+		<item>Use network wakeup thread</item>
+		<item>Use anamorphic glows</item>
+		<item>Max players when hosting</item>
+		<item>Max takedown players when hosting</item>
+		<item>Disable physics thread</item>
+	</string-array>
+	<string-array name="processor_options">
+		<item>Cores</item>
+		<item>Max frequency</item>
+		<item>Min frequency</item>
+	</string-array>
+
+	<string-array name="mem_options">
+		<item>Memory</item>
+		<item>Start texture LOD</item>
+		<item>Texture budget in MB</item>
+		<item>Free more memory</item>
+		<item>Drop AI car Lod when many cars on screen</item>
+		<item>Use texture streaming</item>
+	</string-array>
+	<string-array name="memory_options">
+		<item>Maximum in MB</item>
+		<item>Minimum in MB</item>
+	</string-array>
+
+	<string-array name="res_options">
+		<item>Resolution</item>
+		<item>Scale display</item>
+		<item>Scale antialiasing buffer</item>
+		<item>Use antialiasing</item>
+		<item>Use antialiasing in gameplay</item>
+		<item>Use antialiasing in menu</item>
+	</string-array>
+	<string-array name="resolution_options">
+		<item>Maximum DII</item>
+		<item>Minimum DII</item>
+		<item>Maximum width</item>
+		<item>Minimum width</item>
+		<item>Maximum height</item>
+		<item>Minimum height</item>
+	</string-array>
+
+	<string-array name="fx_options">
+		<item>Post FX</item>
+		<item>Post FX LUT only</item>
+		<item>Use shadows</item>
+		<item>Use cheap custom post FX</item>
+		<item>Use cheap color correction</item>
+		<item>Use vertex fresnel</item>
+		<item>Cutoff distance override</item>
+		<item>Use car dirt</item>
+		<item>Use Fog</item>
+		<item>Use road reflection</item>
+		<item>Use motion blur</item>
+		<item>Use lensflare</item>
+		<item>Use quality road reflection</item>
+		<item>Use glass crack post FX</item>
+		<item>Use custom post FX</item>
+	</string-array>
+	<!--<string-array name="opt_options">
+		<item>Very low</item>
+		<item>Low</item>
+		<item>Medium</item>
+		<item>High</item>
+	</string-array>-->
+	<string-array name="opt_options" translatable="false">
+		<item>VERYLOW</item>
+		<item>LOW</item>
+		<item>MEDIUM</item>
+		<item>HIGH</item>
+	</string-array>
+
+	<string-array name="specifics_options">
+		<item>CPU</item>
+		<item>GPU</item>
+		<item>Resolution</item>
+		<item>Memory</item>
+		<item>Reduce depth fighting</item>
+	</string-array>
+</resources>

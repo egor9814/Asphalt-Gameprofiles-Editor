@@ -1,0 +1,76 @@
+{
+  "GPU_PROFILE":
+  {
+    "GPU_0":
+    {
+      "defaultTextureFiltering": 1,
+      "startTextureLOD": 0,
+      "useDof": false,
+      "GFXOption": "VERYLOW",
+      "roadTextureAnisotropy": 8,
+      "useRoadSpecular": true,
+      "useCarSpecular": true,
+      "useSkidMarks": false,
+      "useHighQualityCars": false,
+      "useCarParticles": true,
+      "useCarQualityLighting": false,
+      "useParaboloidReflection": true,
+      "useStaticParaboloidReflection": false
+    }
+  },
+  "CPU_PROFILE":
+  {
+    "CPU_0":
+    {
+      "useTrafficCars": false,
+      "useBreakables": true,
+      "useSimplifiedCarCollisions": true,
+      "useAICarSounds": false,
+      "useAICarParticles": false,
+      "useQualityPhysics": false,
+      "useNetworkWakeupThread": false,
+      "useAnamorphicGlows": false,
+      "disablePhysicsThread": true
+    }
+  },
+  "MEM_PROFILE":
+  {
+    "MEM_0":
+    {
+      "startTextureLOD":  0,
+      "textureBudgetMB": 512,
+      "freeMoreMemory": true,
+      "dropAICarLodWhenManyCarsOnScreen": true,
+      "useTextureStreaming": false
+
+    }
+  },
+  "RES_PROFILE":
+  {
+    "RES_0":
+    {
+      "scaleDisplay": 100,
+      "useAAInGameplay": false,
+      "useAAInMenu": false
+    }
+  },
+  "OPT_PROFILE":
+  {
+    "VERYLOW":
+    {
+      "useShadows": false,
+      "postFX": false,
+      "postFXLUTOnly": false,
+      "useCheapColorCorrection": false,
+      "useVertexFresnel": false,
+      "cutoffDistanceOverride": 700,
+      "useCarDirt": true,
+      "useFog": false,
+      "useRoadReflection": true,
+      "useMotionBlur": false,
+      "useLensflare": true,
+      "useQualityRoadReflection": false
+    }
+  }
+
+}

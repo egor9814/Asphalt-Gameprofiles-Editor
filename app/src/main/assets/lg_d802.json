@@ -1,0 +1,243 @@
+{
+  "GPU_PROFILE":
+  {
+    "GPU_0":
+    {
+      "renderers": [{"n": "NVIDIA Tegra 4"}, {"n":"NVIDIA Tegra", "+":"0xc0f"}, {"n": "Adreno 330"}, {"n": "Adreno (TM) 330"}, {"n": "mali-t628"}],
+      "roadTextureAnisotropy": true,
+      "GFXOption": "HIGH",
+      "usePerfBoost": true,
+      "useCarSpecular": true,
+      "useRoadSpecular": true
+    },
+    "GPU_1":
+    {
+      "renderers": [{"n": "NVIDIA Tegra 4"}, {"n":"NVIDIA Tegra", "+":"0xc0f"}, {"n": "Adreno 330"}, {"n": "Adreno (TM) 330"}, {"n": "mali-t628"}],
+      "roadTextureAnisotropy": true,
+      "GFXOption": "HIGH",
+      "usePerfBoost": true,
+      "useCarSpecular": true,
+      "useRoadSpecular": true
+    },
+    "GPU_2":
+    {
+      "renderers": [{"n": "NVIDIA Tegra 4"}, {"n":"NVIDIA Tegra", "+":"0xc0f"}, {"n": "Adreno 330"}, {"n": "Adreno (TM) 330"}, {"n": "mali-t628"}],
+      "roadTextureAnisotropy": true,
+      "GFXOption": "HIGH",
+      "usePerfBoost": true,
+      "useCarSpecular": true,
+      "useRoadSpecular": true
+    },
+    "GPU_2.5":
+    {
+      "renderers": [{"n": "NVIDIA Tegra 4"}, {"n":"NVIDIA Tegra", "+":"0xc0f"}, {"n": "Adreno 330"}, {"n": "Adreno (TM) 330"}, {"n": "mali-t628"}],
+      "roadTextureAnisotropy": true,
+      "GFXOption": "HIGH",
+      "usePerfBoost": true,
+      "useCarSpecular": true,
+      "useRoadSpecular": true
+    },
+    "GPU_3":
+    {
+      "renderers": [{"n": "NVIDIA Tegra 4"}, {"n":"NVIDIA Tegra", "+":"0xc0f"}, {"n": "Adreno 330"}, {"n": "Adreno (TM) 330"}, {"n": "mali-t628"}],
+      "roadTextureAnisotropy": true,
+      "GFXOption": "HIGH",
+      "usePerfBoost": true,
+      "useCarSpecular": true,
+      "useRoadSpecular": true
+    },
+    "GPU_3.5":
+    {
+      "renderers": [{"n": "NVIDIA Tegra 4"}, {"n":"NVIDIA Tegra", "+":"0xc0f"}, {"n": "Adreno 330"}, {"n": "Adreno (TM) 330"}, {"n": "mali-t628"}],
+      "roadTextureAnisotropy": true,
+      "GFXOption": "HIGH",
+      "usePerfBoost": true,
+      "useCarSpecular": true,
+      "useRoadSpecular": true
+    },
+    "GPU_4":
+    {
+      "renderers": [{"n": "NVIDIA Tegra 4"}, {"n":"NVIDIA Tegra", "+":"0xc0f"}, {"n": "Adreno 330"}, {"n": "Adreno (TM) 330"}, {"n": "mali-t628"}],
+      "roadTextureAnisotropy": true,
+      "GFXOption": "HIGH",
+      "usePerfBoost": true,
+      "useCarSpecular": true,
+      "useRoadSpecular": true
+    },
+    "GPU_4.5":
+    {
+      "renderers": [{"n": "NVIDIA Tegra 4"}, {"n":"NVIDIA Tegra", "+":"0xc0f"}, {"n": "Adreno 330"}, {"n": "Adreno (TM) 330"}, {"n": "mali-t628"}],
+      "roadTextureAnisotropy": true,
+      "GFXOption": "HIGH",
+      "usePerfBoost": true,
+      "useCarSpecular": true,
+      "useRoadSpecular": true
+    },
+    "GPU_5":
+    {
+      "renderers": [{"n": "NVIDIA Tegra 4"}, {"n":"NVIDIA Tegra", "+":"0xc0f"}, {"n": "Adreno 330"}, {"n": "Adreno (TM) 330"}, {"n": "mali-t628"}],
+      "roadTextureAnisotropy": 16,
+      "carTextureAnisotropy": 16,
+      "GFXOption": "HIGH",
+      "usePerfBoost": true,
+      "useCarSpecular": true,
+      "useRoadSpecular": true
+    }
+  },
+  "CPU_PROFILE":
+  {
+    "CPU_0":
+    {
+      "useTrafficCars": false,
+      "useBreakables": false,
+      "useSimplifiedCarCollisions": true,
+      "useAICarSounds": false,
+      "useAICarParticles": false,
+      "useQualityPhysics": false,
+      "useNetworkWakeupThread": true,
+      "useAnamorphicGlows": false,
+      "maxPlayersWhenHosting": 2,
+      "maxTakedownPlayersWhenHosting": 4,
+      "disablePhysicsThread": true
+    },
+    "CPU_0.5":
+    {
+      "processors": [{"core": 2, "min": 1.0, "max": 1.2}],
+      "useTrafficCars": false,
+      "useBreakables": false,
+      "useSimplifiedCarCollisions": true,
+      "useAICarSounds": false,
+      "useAICarParticles": false,
+      "useQualityPhysics": false,
+      "useNetworkWakeupThread": true,
+      "useAnamorphicGlows": false,
+      "disablePhysicsThread": true
+    },
+    "CPU_1":
+    {
+      "processors": [{"core": 2, "min": 1.2}, {"core": 4, "min": 1.0, "max": 1.2}, {"core": 4, "min": 1.5, "max": 1.6}],
+      "useTrafficCars": true,
+      "useBreakables": true,
+      "useSimplifiedCarCollisions": false,
+      "useAICarSounds": false,
+      "useAICarParticles": false,
+      "useQualityPhysics": false,
+      "disablePhysicsThread": true,
+      "useNetworkWakeupThread": true
+    },
+    "CPU_2":
+    {
+      "processors": [{"core": 4, "min": 1.2, "max": 1.5}],
+      "useTrafficCars": true,
+      "useBreakables": true,
+      "useSimplifiedCarCollisions": false,
+      "useAICarSounds": false,
+      "useAICarParticles": false,
+      "useQualityPhysics": true,
+      "disablePhysicsThread": true,
+      "useNetworkWakeupThread": true
+    },
+    "CPU_3":
+    {
+      "processors": [{"core": 4, "min": 1.6}],
+      "useTrafficCars": true,
+      "useBreakables": true,
+      "useSimplifiedCarCollisions": false,
+      "useAICarSounds": true,
+      "useAICarParticles": true,
+      "useQualityPhysics": true,
+      "disablePhysicsThread": false,
+      "useNetworkWakeupThread": true,
+      "useAnamorphicGlows": true
+    }
+  },
+  "MEM_PROFILE":
+  {
+    "MEM_0":
+    {
+      "startTextureLOD": 0,
+      "textureBudgetMB": 512,
+      "dropAICarLodWhenManyCarsOnScreen": false,
+      "useTextureStreaming": false
+    },
+    "MEM_1":
+    {
+      "memory":
+      {
+        "min": 512,
+        "max": 768
+      },
+      "startTextureLOD": 0,
+      "textureBudgetMB": 512,
+      "dropAICarLodWhenManyCarsOnScreen": false,
+      "useTextureStreaming": false
+    },
+    "MEM_2":
+    {
+      "memory":
+      {
+        "min": 768,
+        "max": 1024
+      },
+      "startTextureLOD": 0,
+      "textureBudgetMB": 512,
+      "dropAICarLodWhenManyCarsOnScreen": false,
+      "useTextureStreaming": false
+    },
+    "MEM_3":
+    {
+      "memory":
+      {
+        "min": 1024
+      },
+      "startTextureLOD": 0,
+      "textureBudgetMB": 768,
+      "dropAICarLodWhenManyCarsOnScreen": false,
+      "useTextureStreaming": false
+    }
+  },
+  "RES_PROFILE":
+  {
+    "RES_0":
+    {
+      "scaleDisplay": 100,
+      "useAAInGameplay": true,
+      "useAAInMenu": true
+    },
+    "RES_1":
+    {
+      "scaleDisplay": 100,
+      "useAAInGameplay": true,
+      "useAAInMenu": false
+    }
+  },
+  "OPT_PROFILE":
+  {
+    "HIGH":
+    {
+      "useShadows": true,
+      "postFX": true,
+      "postFXLUTOnly": true,
+      "useCheapColorCorrection": false,
+      "useVertexFresnel": true,
+      "cutoffDistanceOverride": 0,
+      "useCarDirt": true,
+      "useRoadReflection": true,
+      "useQualityRoadReflection": true,
+      "useGlassCrackPFX": true,
+      "useFog": true,
+      "useMotionBlur": false
+    }
+  },
+  "SPECIFICS":
+  {
+
+    "lg-d802":
+    {
+      "GPU": "5",
+      "CPU": "3",
+      "MEM": "3",
+      "RES": "0"
+    }
+  }
+}

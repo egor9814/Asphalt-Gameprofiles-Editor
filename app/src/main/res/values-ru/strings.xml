@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="navigation_drawer_open">Открыть панель навигации</string>
+	<string name="navigation_drawer_close">Закрыть панель навигации</string>
+
+	<string name="press_more_to_exit">Нажмите еще раз, чтобы выйти</string>
+	<string name="are_you_sure">Вы уверенны?</string>
+	<string name="confirm">Подтвердить</string>
+	<string name="saving">Сохранение</string>
+	<string name="please_wait">Пожалуйста, подождите&#8230;</string>
+	<string name="fail_on_save">Ошибка во время сохранения</string>
+	<string name="success_save">Успешно сохранено</string>
+	<string name="licenses">Лицензии</string>
+	<string name="about" formatted="false">Редактор конфигов для Asphalt 8\n\nВерсия Андроид:%s\nИмя устройства:%s</string>
+
+	<string name="action_settings">Настройки</string>
+	<string name="action_save">Сохранить</string>
+	<string name="action_load">Загрузить</string>
+	<string name="action_exit">Выйти</string>
+	<string name="action_about">О программе</string>
+	<string name="open_with">Открыть&#8230;</string>
+
+
+	<!-- Navigation bar -->
+	<string name="nav_action_go_gpu">GPU</string>
+	<string name="nav_action_go_cpu">CPU</string>
+	<string name="nav_action_go_mem">Memory</string>
+	<string name="nav_action_go_res">Resolution</string>
+	<string name="nav_action_go_opt">Effects</string>
+	<string name="nav_action_go_specifics">Devices</string>
+
+	<string name="nav_group_other">Другие опции</string>
+	<string name="nav_action_apply_template">Применить шаблон</string>
+	<string name="nav_action_apply_custom_template">Применить свой шаблон</string>
+	<string name="nav_select_panel">Выберете редактируемый профиль</string>
+
+
+	<!-- Profiles titles -->
+	<string name="profile_cpu">CPU Профили</string>
+	<string name="profile_gpu">GPU Профили</string>
+	<string name="profile_mem">Memory Профили</string>
+	<string name="profile_res">Resolution Профили</string>
+	<string name="profile_opt">Effects Профили</string>
+	<string name="profile_specifics">Список устройств</string>
+
+
+	<!-- Editor panel -->
+	<string name="editor_edit">Редактировать</string>
+	<string name="editor_remove">Удалить</string>
+	<string name="editor_removing">Удаление:</string>
+	<string name="editor_enter_name">введите имя</string>
+	<string name="editor_enter_value">введите значение</string>
+	<string name="editor_new_profile">Новый профиль</string>
+	<string name="editor_already_contains">Уже существует</string>
+	<string name="editor_name">Имя</string>
+	<string name="editor_value">Значение</string>
+	<string name="editor_create_new_fx">Сначало создайте новый Effects профиль</string>
+	<string name="editor_create_new_cpu">Сначало создайте новый CPU профиль</string>
+	<string name="editor_create_new_gpu">Сначало создайте новый GPU профиль</string>
+	<string name="editor_create_new_res">Сначало создайте новый Resolution профиль</string>
+	<string name="editor_create_new_mem">Сначало создайте новый Memory профиль</string>
+	<string name="editor_renaming">Переименование:</string>
+	<string name="editor_cloning">Клонирование:</string>
+	<string-array name="editor_device_options">
+		<item>Переименовать</item>
+		<item>Клонировать</item>
+	</string-array>
+	<string name="editor_select">Выберете опцию</string>
+
+
+	<!-- Other -->
+	<string name="renderer_new_renderer">Новый рендерер</string>
+	<string name="renderer_edit_param">Редактировать параметр</string>
+	<string name="renderer_param">Параметр</string>
+	<string name="renderer_params">Параметры</string>
+	<string name="processor">Процессор</string>
+
+
+	<!-- JSON loader -->
+	<string name="gp_file_exists">Найден конфиг в папке с игрой</string>
+	<string name="gp_load">Загрузить этот конфиг?</string>
+	<string-array name="gp_file_operations">
+		<item>Создать новый файл</item>
+		<item>Открыть существюющий файл</item>
+	</string-array>
+	<string name="gp_open_failed">Ошибка во время открытия файла</string>
+	<string name="gp_select_template">Выберете шаблон</string>
+	<string name="gp_custom_templates">Пользовательские шаблоны находятся в &quot;/sdcard/egor9814/gameprofiles/&quot; с расширением &quot;.json&quot;</string>
+</resources>

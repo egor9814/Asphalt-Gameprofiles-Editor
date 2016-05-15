@@ -1,1 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="ru.egor9814.app.a8gpe2"
+          xmlns:android="http://schemas.android.com/apk/res/android">
 
+	<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+	<application
+		android:name=".App"
+		android:allowBackup="true"
+		android:icon="@mipmap/ic_launcher"
+		android:label="@string/app_name"
+		android:supportsRtl="true"
+		android:theme="@style/AppTheme">
+
+		<activity
+			android:name=".StartActivity"
+			android:theme="@style/AppTheme.Dialog">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN"/>
+
+				<category android:name="android.intent.category.LAUNCHER"/>
+			</intent-filter>
+		</activity>
+		<activity
+			android:name="ru.bartwell.exfilepicker.ExFilePickerActivity"
+			android:configChanges="orientation|screenSize"
+			android:theme="@style/ExFilePickerThemeDark"/>
+
+		<activity
+			android:name=".MainActivity"
+			android:configChanges="screenLayout|screenSize|orientation"
+			android:label="@string/app_name"
+			android:theme="@style/AppTheme.NoActionBar">
+		</activity>
+
+		<activity
+			android:name=".editor.CPUProfileEditor"
+			android:configChanges="screenLayout|screenSize|orientation"/>
+		<activity
+			android:name=".editor.CPUProfileEditor$ProcessorsEditorActivity"
+			android:configChanges="screenLayout|screenSize|orientation"/>
+
+		<activity
+			android:name=".editor.GPUProfileEditor"
+			android:configChanges="screenLayout|screenSize|orientation"/>
+		<activity
+			android:name=".editor.GPUProfileEditor$RenderersEditorActivity"
+			android:configChanges="screenLayout|screenSize|orientation"/>
+		<activity
+			android:name=".editor.GPUProfileEditor$ParamsEditorActivity"
+			android:configChanges="screenLayout|screenSize|orientation"/>
+
+		<activity
+			android:name=".editor.MEMProfileEditor"
+			android:configChanges="screenLayout|screenSize|orientation"/>
+		<activity
+			android:name=".editor.MEMProfileEditor$MemoryEditorActivity"
+			android:configChanges="screenLayout|screenSize|orientation"/>
+
+		<activity
+			android:name=".editor.RESProfileEditor"
+			android:configChanges="screenLayout|screenSize|orientation"/>
+		<activity
+			android:name=".editor.RESProfileEditor$ResolutionEditorActivity"
+			android:configChanges="screenLayout|screenSize|orientation"/>
+
+		<activity
+			android:name=".editor.OPTProfileEditor"
+			android:configChanges="screenLayout|screenSize|orientation"/>
+
+		<activity
+			android:name=".editor.DeviceEditorActivity"
+			android:configChanges="screenLayout|screenSize|orientation"/>
+
+		<activity
+			android:name=".license.LicenseViewActivity"
+			android:label="@string/title_activity_license_view"
+			android:theme="@style/AppTheme.NoActionBar">
+		</activity>
+	</application>
+
+</manifest>

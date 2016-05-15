@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="gpu_options">
+		<item>Рендереры</item>
+		<item>Ипользовать парабалоидное отражение</item>
+		<item>Ипользовать статичное парабалоидное отражение</item>
+		<item>Ипользовать высококачественные автомобили</item>
+		<item>Ипользовать качественоое автомобильное освещение</item>
+		<item>Ипользовать отражение дороги</item>
+		<item>Ипользовать отражение автомобиля</item>
+		<item>Анизотропия текстур дороги</item>
+		<item>Ипользовать частицы автомобиля</item>
+		<item>Ипользовать эффект идеального нитро</item>
+		<item>GFX option(ссылка на качество эффектов)</item>
+		<item>Ипользовать степень свободы</item>
+		<item>Фильтрация текстур по умолчанию</item>
+		<item>Оптимизировать модели</item>
+		<item>Начальный уровень детализации</item>
+		<item>Ипользовать следы шин</item>
+		<item>Сортировать твердые тела спереди назад</item>
+		<item>Качество смазывания в полноэкранном режиме</item>
+		<item>Анизотропия текстур автомобиля</item>
+	</string-array>
+
+	<string-array name="cpu_options">
+		<item>Процессоры</item>
+		<item>Ипользовать машины на дороге</item>
+		<item>Ипользовать разрушаемые объекты</item>
+		<item>Отключить кусочки авто после столкновения</item>
+		<item>Ипользовать звуки автомобилей компьютера</item>
+		<item>Ипользовать частицы автомобилей компьютера</item>
+		<item>Ипользовать качественную физику</item>
+		<item>Включить синхронизацию в мультиплеере</item>
+		<item>Использовать эффект свечения фар</item>
+		<item>Max players when hosting</item>
+		<item>Max takedown players when hosting</item>
+		<item>Отключить физический поток</item>
+	</string-array>
+	<string-array name="processor_options">
+		<item>Кол-во ядер</item>
+		<item>Макс. частота</item>
+		<item>Мин. частота</item>
+	</string-array>
+
+	<string-array name="mem_options">
+		<item>Память</item>
+		<item>Начальный уровень детализации</item>
+		<item>Память под текстуры (в МБ)</item>
+		<item>Освобождать больше памяти</item>
+		<item>Понижать уровень детализации автомобилей комьютера, когда много машин на экране</item>
+		<item>Использовать Texture Streaming (Размытие текстур)</item>
+	</string-array>
+	<string-array name="memory_options">
+		<item>Макс. в МБ</item>
+		<item>Мин. в МБ</item>
+	</string-array>
+
+	<string-array name="res_options">
+		<item>Разрешение</item>
+		<item>Масштаб отображения</item>
+		<item>Буфер масштаба сглаживания</item>
+		<item>Использовать сглаживание</item>
+		<item>Использовать сглаживание в игре</item>
+		<item>Использовать сглаживание в меню</item>
+	</string-array>
+	<string-array name="resolution_options">
+		<item>Максимальная диоганаль</item>
+		<item>Минимальная диоганаль</item>
+		<item>Максимальная ширина</item>
+		<item>Минимальная ширина</item>
+		<item>Максимальная высота</item>
+		<item>Минимальная высота</item>
+	</string-array>
+
+	<string-array name="fx_options">
+		<item>Эффекты</item>
+		<item>Использовать только LUT эффекты</item>
+		<item>Использовать тени</item>
+		<item>Использовать низкие пользовательские эффекты</item>
+		<item>Использовать низкую коррекцию цвета</item>
+		<item>Использовать вершины Френеля</item>
+		<item>Вырезка дистанции перезаписи</item>
+		<item>Использовать грязь</item>
+		<item>Использовать дымку</item>
+		<item>Использовать отражения дороги</item>
+		<item>Использовать смазывание во время движения</item>
+		<item>Использовать блики</item>
+		<item>Использовать высококачественное отражение дороги</item>
+		<item>Использовать эффект разбитого стекла при аварии</item>
+		<item>Использовать пользовательские эффекты</item>
+	</string-array>
+
+	<string-array name="specifics_options">
+		<item>CPU</item>
+		<item>GPU</item>
+		<item>Разрешение</item>
+		<item>Память</item>
+		<item>Уменьшить глубину боевых действий</item>
+	</string-array>
+
+</resources>

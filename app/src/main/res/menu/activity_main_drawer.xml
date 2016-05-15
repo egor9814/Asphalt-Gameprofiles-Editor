@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<group android:checkableBehavior="single">
+		<item
+			android:id="@+id/nav_action_go_gpu"
+			android:title="@string/nav_action_go_gpu"/>
+		<item
+			android:id="@+id/nav_action_go_cpu"
+			android:title="@string/nav_action_go_cpu"/>
+		<item
+			android:id="@+id/nav_action_go_mem"
+			android:title="@string/nav_action_go_mem"/>
+		<item
+			android:id="@+id/nav_action_go_res"
+			android:title="@string/nav_action_go_res"/>
+		<item
+			android:id="@+id/nav_action_go_opt"
+			android:title="@string/nav_action_go_opt"/>
+		<item
+			android:id="@+id/nav_action_go_specifics"
+			android:title="@string/nav_action_go_specifics"/>
+	</group>
+
+	<item android:title="@string/nav_group_other">
+		<menu>
+			<item
+				android:id="@+id/nav_action_apply_template"
+			    android:title="@string/nav_action_apply_template"/>
+			<item
+				android:id="@+id/nav_action_apply_custom_template"
+			    android:title="@string/nav_action_apply_custom_template"/>
+		</menu>
+	</item>
+	<!--<item android:title="About">
+		<menu>
+			<item
+				android:id="@+id/nav_share"
+				android:title="Share"/>
+		</menu>
+	</item>-->
+
+</menu>
