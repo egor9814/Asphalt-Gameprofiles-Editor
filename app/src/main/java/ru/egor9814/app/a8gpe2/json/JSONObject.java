@@ -104,6 +104,10 @@ public class JSONObject {
 
 	@Override
 	public String toString() {
+		return toString(4);
+	}
+
+	public String toString(String tab){
 		String result = "";
 		for(Map.Entry<String, Object> entry : pairs.entrySet()){
 			String value = entry.getValue().toString();
@@ -114,9 +118,17 @@ public class JSONObject {
 		Scanner in = new Scanner(new String(result.getBytes()));
 		result = "";
 		while(in.hasNextLine()){
-			result += "\n\t" + in.nextLine();
+			result += "\n" + tab + in.nextLine();
 		}
 		return "{" + result + "\n}";
+	}
+	public String toString(int tabSize){
+		if(tabSize == 4) return toString("\t");
+		else {
+			String tab = "";
+			for(int i = 0; i < tabSize; i++) tab += " ";
+			return toString(tab);
+		}
 	}
 
 	private void parse(String in) throws JSONException{
